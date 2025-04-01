@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+               <div class="letter">
+                  <div class="text">
+                    <strong>Dear Ruan Chan</strong>
+                    <p>I like you. You don't have to say anything; I just want to tell you how I feel about you. Thank you! </p>
+                    <p> </p>
+                    <p> </p>
+                    <p> </p>
+                    <p>                        -Nath</p>
+                  </div>
+              </div>
+          </div>
+       </div>
+       <div class="heart"></div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {envelope.classList.toggle('flap');});
+    </script>
+</body>
+</html>

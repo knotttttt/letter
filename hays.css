@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: plum;
+}
+
+h1{
+    position: absolute;
+    left: 30%;
+}
+
+img{
+    position: absolute;
+    bottom: 55%;
+    left: 33%;
+}
+
+.yes{
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+    padding: 2%;
+}
+
+.no{
+    position: absolute;
+    bottom: 40%;
+    left: 53%;
+    padding: 2%;
+}

@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: plum;
+}
+
+.hire{
+    position: absolute;
+    bottom: 80%;
+    left: 45%;
+    font-size: 30px;
+}
+
+img{
+    position: absolute;
+    bottom: 30%;
+    left: 39%;
+}
+
+.claim{
+    position: absolute;
+    bottom: 20%;
+    left: 41%;
+}
+
+.me{
+    position: absolute;
+    bottom: 13%;
+    left: 45%;
+    padding: 1%;
+}
